@@ -15,10 +15,10 @@
  
 # 1. Começamos definindo valorBotão como um numero inteiro.  
 # 2. Depois configuramos o setup  
-### 2.1 ``  pinMode(8, INPUT);``  ->  Usamos para definir o botão como entrada de dados, quando pressionado.  
-       ###  2.2 ``pinMode(4, OUTPUT);`` -> Usamos para definir o botão como saida de dados, quando  o botão for pressionado.  
-           ### 2.3 ``pinMode(3, OUTPUT);`` -> Usamos para definir o botão como saida de dados, quando  o botão for pressionado.  
-                ### 2.4 ``pinMode(2, OUTPUT);`` -> Usamos para definir o botão como saida de dados, quando  o botão for pressionado.  
+``pinMode(8, INPUT);``  ->  Usamos para definir o botão como entrada de dados, quando pressionado.  
+``pinMode(4, OUTPUT);`` -> Usamos para definir o botão como saida de dados, quando  o botão for pressionado.  
+``pinMode(3, OUTPUT);`` -> Usamos para definir o botão como saida de dados, quando  o botão for pressionado.  
+``pinMode(2, OUTPUT);`` -> Usamos para definir o botão como saida de dados, quando  o botão for pressionado.  
 # 3. Agora configuramos o loop
   ```  
   digitalWrite(4, HIGH); -> Mantém o pino 4 em nível alto (Ligado)
