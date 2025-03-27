@@ -22,12 +22,12 @@
 # 3. Agora configuramos o loop
   ```  
   digitalWrite(4, HIGH); -> Mantém o pino 4 em nível alto (Ligado)
- valorBotao = digitalRead(8); -> Lê o estado do botão no pino 8
+  valorBotao = digitalRead(8); -> Lê o estado do botão no pino 8
     if(valorBotao == 1){  -> Condição se o botão for pressionado.
     digitalWrite(4, 0);  -> Botão quatro apaga
     digitalWrite(3, 1);  -> Botão três acende
     delay(1000);  -> Tempo de espera de 1 segundo.
-  	digitalWrite(3, 0);  -> Botão três apaga.
+  	 digitalWrite(3, 0);  -> Botão três apaga.
     digitalWrite(2, 1);  -> Botão 2 acende.
     delay(3000);  -> Tempo de espera de 3 segundos.
     digitalWrite(2, 0); -> Botão 2 apaga.   
